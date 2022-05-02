@@ -1,17 +1,4 @@
 
-# Name: Godwill Afolabi
-# findlength.asm
-#
-# Finds the length of a string
-#
-#int strlen( char *string) {
-#  int length = 0;
-#  while( *(string + length) != NULL) {
-#    length++;
-#  }
-#  return( length);
-#}
-#
 
 .data
   stringVariableName:  .asciiz   "Hello"
